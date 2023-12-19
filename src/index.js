@@ -6,13 +6,6 @@ import {aboutPage} from '../src/about.js';
 const content = document.getElementById('content');
 content.appendChild(homePage());
 
-const home = document.querySelector('#home');
-const menu = document.querySelector('#menu');
-const about = document.querySelector('#about');
-
-const homeBtn = document.querySelector('#homeBtn');
-const menuBtn = document.querySelector('#menuBtn');
-const aboutBtn = document.querySelector('#aboutBtn');
 const btns = document.querySelectorAll('.btn');
 
 for (let btn of btns) {
