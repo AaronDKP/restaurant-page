@@ -44,6 +44,7 @@ header>div {
 
 header>div>p {
     border-bottom: 2px solid #252A34;
+    cursor: pointer;
 }
 
 header>div>p:hover {
@@ -88,15 +89,14 @@ header>div>p:hover {
     width: 120px;
     font-size: 1.6em;
     font-weight: 800;
-    color: #252A34 ;
-    background-color: #08D9D6;
-    border: none;
-    border-radius: 2px;
+    color: #EAEAEA ;
+    background-color: #252A34;
+    border: 2px solid #08D9D6;
+    border-radius: 4px;
 }
 
 #home>button:hover {
-    color: #EAEAEA;
-    transition: 0.1s;
+    background-color: #08D9D6;
 }
 
 #home>button:active {
