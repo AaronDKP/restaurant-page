@@ -1,4 +1,4 @@
-import aboutImg from './src/img/about.svg';
+import aboutImg from '../src/img/about.svg';
 
 function aboutPage () {
 
