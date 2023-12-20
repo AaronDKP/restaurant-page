@@ -1,4 +1,4 @@
-import menuImg from '../src/img/menu.svg';
+import menuImg from './src/img/menu.svg';
 
 function menuPage () {
     const menu = document.createElement('div');
