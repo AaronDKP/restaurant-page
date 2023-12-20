@@ -1,4 +1,5 @@
 import { menuPage } from "./menu";
+import homeImg from '../src/img/home.svg';
 
 function homePage () {
     const home = document.createElement('div');
@@ -8,7 +9,7 @@ function homePage () {
 
     home.setAttribute('id', 'home');
 
-    img.src = '../src/img/home.svg';
+    img.src = homeImg;
     home.appendChild(img);
 
     heading.textContent = 'Ramen restaurant in Konohagakure';
