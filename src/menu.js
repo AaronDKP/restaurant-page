@@ -1,3 +1,5 @@
+import menuImg from './src/img/menu.svg';
+
 function menuPage () {
     const menu = document.createElement('div');
     const img = new Image();
@@ -6,7 +8,7 @@ function menuPage () {
     menu.setAttribute('id', 'menu');
     menuContainer.setAttribute('id', 'menu-container');
 
-    img.src = '../src/img/menu.svg';
+    img.src = menuImg;
     menu.appendChild(img);
 
 
