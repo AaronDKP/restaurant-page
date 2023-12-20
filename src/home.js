@@ -8,7 +8,7 @@ function homePage () {
 
     home.setAttribute('id', 'home');
 
-    img.src = 'src/img/home.svg'
+    img.src = './restaurant-page/src/img/home.svg'
     home.appendChild(img);
 
     heading.textContent = 'Ramen restaurant in Konohagakure';
