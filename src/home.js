@@ -1,5 +1,5 @@
 import { menuPage } from "./menu";
-import homeImg from '../src/img/home.svg';
+import homeImg from './src/img/home.svg';
 
 function homePage () {
     const home = document.createElement('div');
