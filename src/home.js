@@ -1,4 +1,4 @@
-import { menuPage } from "./menu";
+import { menuPage } from "./menu.js";
 import homeImg from '../src/img/home.svg';
 
 function homePage () {
