@@ -6,7 +6,7 @@ function menuPage () {
     menu.setAttribute('id', 'menu');
     menuContainer.setAttribute('id', 'menu-container');
 
-    img.src = './restaurant-page/src/img/menu.svg';
+    img.src = '../src/img/menu.svg';
     menu.appendChild(img);
 
 
